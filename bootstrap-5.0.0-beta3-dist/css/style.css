@@ -1,0 +1,60 @@
+.jumbotron,
+section {
+    padding-top: 5rem;
+}
+.jumbotron {
+    text-align: center;
+}
+
+.jumbotron,
+#dokumentasi {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 42%, rgba(0,212,255,1) 100%);
+}
+
+@keyframes logo {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -3000px, 0) scaleY(3);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(0, 25px, 0) scaleY(0.9);
+    }
+
+    75% {
+        transform: translate3d(0, -10px, 0) scaleY(0.95);
+    }
+
+    90% {
+        transform: translate3d(0, 5px, 0) scaleY(0.985);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+  
+  
+#logo {
+    animation:logo 1.5s forwards;
+}
+
+footer {
+  background-color: rgba(9,9,121,1);
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
